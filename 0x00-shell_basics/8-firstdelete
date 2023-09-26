@@ -1,0 +1,6 @@
+#!/bin/bash
+<<<<<<< HEAD
+rm /tmp/my_first_directory/betty
+=======
+ls /tmp/my_first_directory/
+>>>>>>> 1cc2b27b65cde64665b46e8f07d7f9ba862e9e98
