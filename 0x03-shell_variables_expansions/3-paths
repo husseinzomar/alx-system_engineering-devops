@@ -1,2 +1,17 @@
 #!/bin/bash
-echo $PATH | tr ':' '\n' | wc -l
+# This script counts the number of directories in the PATH
+
+# Get the value of the PATH variable
+path=$PATH
+
+# Replace all colons with spaces
+path=${path//:/ }
+
+# Count the number of words in the path
+count=0
+for dir in $path; do
+  count=$((count + 1))
+done
+
+# Print the result
+echo $count
