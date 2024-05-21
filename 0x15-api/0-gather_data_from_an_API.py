@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 
+
 import requests
+import sys
 
 def get_employee_todo_progress(employee_id):
     # Replace with the actual API endpoint
